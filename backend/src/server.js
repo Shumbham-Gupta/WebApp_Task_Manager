@@ -29,7 +29,7 @@ app.use(helmet());
 // Enable CORS
 app.use(
   cors({
-    origin: process.env.FRONTEND_URL || 'https://webapp-task-manager-frontend.onrender.com/api',
+    origin: process.env.FRONTEND_URL || 'https://webapp-task-manager-frontend.onrender.com',
     credentials: true,
   })
 );
