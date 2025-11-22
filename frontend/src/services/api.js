@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://webapp-task-manager.onrender.com',
+  baseURL: 'https://webapp-task-manager.onrender.com/api',
   headers: {
     'Content-Type': 'application/json',
   },
