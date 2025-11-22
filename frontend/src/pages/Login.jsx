@@ -32,7 +32,7 @@ const Login = () => {
   };
 
   return (
-    <div className="min-h-screen  flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-md w-full">
 
         {/* Logo */}
@@ -91,7 +91,7 @@ const Login = () => {
             <button
               type="submit"
               disabled={loading}
-              className="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-md font-medium shadow-sm"
+              className="w-full bg-purple-600 hover:bg-purple-700 text-white py-2 rounded-md font-medium shadow-sm"
             >
               {loading ? 'Signing in...' : 'Sign In'}
             </button>
@@ -104,7 +104,7 @@ const Login = () => {
               Don't have an account?{' '}
               <Link
                 to="/register"
-                className="text-blue-600 hover:text-blue-700 font-medium"
+                className="text-purple-600 hover:text-purple-700 font-medium"
               >
                 Sign up
               </Link>

@@ -26,7 +26,7 @@ const TaskCard = ({ task, onEdit, onDelete }) => {
   return (
     <div className="bg-white border border-blue-100 rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow duration-200">
       <div className="flex justify-between items-start mb-3">
-        <h3 className="text-lg font-semibold text-blue-800">{task.title}</h3>
+        <h3 className="text-lg font-semibold text-purple-800">{task.title}</h3>
 
         <div className="flex space-x-2">
           <button

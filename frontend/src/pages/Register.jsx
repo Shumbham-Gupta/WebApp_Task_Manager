@@ -140,7 +140,7 @@ const Register = () => {
             <button
               type="submit"
               disabled={loading}
-              className="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-md font-medium shadow-sm"
+              className="w-full bg-purple-600 hover:bg-purple-700 text-white py-2 rounded-md font-medium shadow-sm"
             >
               {loading ? 'Creating account...' : 'Create Account'}
             </button>
@@ -153,7 +153,7 @@ const Register = () => {
               Already have an account?{' '}
               <Link
                 to="/login"
-                className="text-blue-600 hover:text-blue-700 font-medium"
+                className="text-purple-600 hover:text-purple-700 font-medium"
               >
                 Sign in
               </Link>

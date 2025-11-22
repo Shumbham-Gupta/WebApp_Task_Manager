@@ -42,7 +42,7 @@ const TaskForm = ({ task, onSubmit, onClose }) => {
         
         {/* Header */}
         <div className="flex justify-between items-center mb-4">
-          <h2 className="text-2xl font-bold text-blue-800">
+          <h2 className="text-2xl font-bold text-purple-700">
             {task ? 'Edit Task' : 'Create Task'}
           </h2>
           <button onClick={onClose} className="text-gray-500 hover:text-gray-700">
@@ -125,7 +125,7 @@ const TaskForm = ({ task, onSubmit, onClose }) => {
           <div className="flex space-x-3 pt-4">
             <button
               type="submit"
-              className="flex-1 bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-md font-medium"
+              className="flex-1 bg-purple-600 hover:bg-purple-700 text-white py-2 rounded-md font-medium"
             >
               {task ? 'Update Task' : 'Create Task'}
             </button>
